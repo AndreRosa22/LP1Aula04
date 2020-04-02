@@ -11,8 +11,8 @@ namespace MyFirstMethod
         static void Main(string[] args)
         {
             CountTo10();
-            CountTo10();
             CountToN(3);
+            CountToN(-1, 5);
         }
 
         /// <summary>
@@ -34,5 +34,13 @@ namespace MyFirstMethod
                 Console.WriteLine(i);
             }
         }
+        static void CountToN(int n1, int n2)
+        {
+            for(int i = n1; i <= n2; i++)
+            {
+                Console.WriteLine(i);
+            }
+        }
+
     }
 }
