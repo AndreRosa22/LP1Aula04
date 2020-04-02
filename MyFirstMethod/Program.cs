@@ -8,11 +8,17 @@ namespace MyFirstMethod
         {
             CountTo10();
             CountTo10();
+            CountToN(3);
         }
 
         static void CountTo10()
         {
-            for(int i = 1; i <= 10; i++)
+            CountToN(10);
+        }
+       
+        static void CountToN(int n)
+        {
+            for(int i = 1; i <= n; i++)
             {
                 Console.WriteLine(i);
             }
