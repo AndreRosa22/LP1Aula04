@@ -34,6 +34,11 @@ namespace MyFirstMethod
                 Console.WriteLine(i);
             }
         }
+        /// <summary>
+        /// Method that prints numbers from n1 to n2
+        /// </summary>
+        /// <param name="n1">Minimum number to print</param>
+        /// <param name="n2">Maximum number to print</param>
         static void CountToN(int n1, int n2)
         {
             for(int i = n1; i <= n2; i++)
